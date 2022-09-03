@@ -40,7 +40,7 @@ body {
 /* Page header */
  .page-header {
     background-color: #ccc;
-    border-bottom-width: px;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: palevioletred;
  }
@@ -193,6 +193,7 @@ ul {
 .activity-title {
     margin-top: 0;
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.6;
@@ -202,6 +203,9 @@ ul {
 }
 .activity {
     margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    
  }
 
 
@@ -221,7 +225,10 @@ ul {
 }
 
 .out-team {
-    background-color:#F5F4FA;; 
+    background-color:#F5F4FA;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .card {
     width: 270px;
@@ -242,6 +249,7 @@ ul {
 .card-text {
     margin-top: 0;
     margin-bottom: 30px;
+    
     color: #757575;
     font-family: 'Roboto';
     font-size: 16px;
