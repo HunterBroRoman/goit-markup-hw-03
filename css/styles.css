@@ -173,6 +173,7 @@ body {
 /* style skills*/
 .skills {
   display: flex;
+  padding: 0;
 }
 
 .skills-title {
@@ -200,6 +201,11 @@ body {
 
 /* style activity*/
 
+.activity {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
 .activity-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -211,11 +217,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.activity {
-  margin-top: 0;
-  display: flex;
-  justify-content: space-between;
-}
+
 
 /* style наша команда*/
 
@@ -233,13 +235,21 @@ body {
   color: #212121;
 }
 
-.out-team {
+. {
   background-color: #f5f4fa;
+}
+.out-team {
   display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
   justify-content: space-between;
+  
 }
 .card {
   width: 270px;
+  background-color: #FFFFFF;;
+
 }
 
 .card-title {
@@ -268,22 +278,18 @@ body {
 /* style footer */
 
 .footer {
+  display: flex;
   background-color: #2f303a;
 }
 
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .footer .logo {
-  margin-left: 40px;
-  margin-top: 0;
   margin-bottom: 20px;
 }
 
 .site-address {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.5;
@@ -295,10 +301,13 @@ body {
 .site-address:focus {
   color: #2196f3;
 }
+.site-footer {
+  padding: 0;
+}
 
 .site-footer .info {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -307,6 +316,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+ 
 
 .info:hover,
 .info:focus {
