@@ -42,6 +42,9 @@ body {
   padding-left: 15px;
 }
 
+img {
+  display: block;
+}
 /* general style ul */
 
 /* Page header */
@@ -221,48 +224,45 @@ body {
 
 /* style наша команда*/
 
-.team {
-  margin-top: 0;
-  margin-bottom: 50px;
-
-  padding-top: 0;
+ .team {
+  background-color: #F5F4FA;
+  padding-bottom: 94px;
+ }
+ 
+ .card-title {
+  margin-bottom:50px;
+  margin-top:  0;
+  
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 
-. {
-  background-color: #f5f4fa;
-}
 .out-team {
   display: flex;
   padding: 0;
-  margin: 0;
-  margin-bottom: 60px;
+  
+  
   justify-content: space-between;
   
 }
 .card {
   width: 270px;
   background-color: #FFFFFF;;
-
 }
-
-.card-title {
+ 
+.name-title {
   margin-top: 30px;
   margin-bottom: 10px;
-
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.87;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
+
 .card-text {
   margin-top: 0;
   margin-bottom: 30px;
