@@ -208,6 +208,8 @@ img {
   display: flex;
   padding: 0;
   justify-content: space-between;
+  padding-bottom: 94px;
+  margin: 0;
 }
 .activity-title {
   margin-top: 0;
@@ -225,13 +227,19 @@ img {
 /* style наша команда*/
 
  .team {
-  background-color: #F5F4FA;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
+
  }
- 
+
+ .out {
+  margin-top: 0;
+  padding-top: 94px;
+ }
  .card-title {
   margin-bottom:50px;
   margin-top:  0;
+  
   
   font-weight: 700;
   font-size: 36px;
@@ -242,10 +250,12 @@ img {
 }
 
 .out-team {
+  
   display: flex;
   padding: 0;
-  
-  
+  margin: 0;
+ 
+     
   justify-content: space-between;
   
 }
