@@ -33,7 +33,6 @@ body {
 }
 
 .container {
-  margin-top: 94px;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -42,12 +41,16 @@ body {
   padding-left: 15px;
 }
 
+.section {
+  padding-top:94px;
+  padding-bottom: 94px;
+}
 img {
   display: block;
 }
 /* general style ul */
 
-/* Page header */
+/* ------Page header------- */
 .page-header {
   display: flex;
   margin-top: 0;
@@ -151,17 +154,18 @@ img {
 
 /* style index.html*/
 
-/* style heroy*/
+/* ----------style heroy-------*/
 .heroy {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .slogan {
-  margin-top: 0;
-  margin-bottom: 30px;
-  padding-top: 200px;
-
+  margin: 0;
+  padding-bottom: 30px;
+  
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -170,8 +174,8 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button {
-  margin-bottom: 200px;
+.heroy-button {
+  
   padding: 10px 32px;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -191,16 +195,24 @@ img {
   color: var(--accent-color);
   cursor: pointer;
 }
-/* style skills*/
+/* ----------style skills--------*/
+.hidden-header {
+  display: none;
+}
+
 .skills {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.skills-list {
   display: flex;
   padding: 0;
   margin: 0;
 }
 
 .skills-title {
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0;
+  padding-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -211,9 +223,8 @@ img {
 }
 
 .skills-text {
-  margin-top: 0;
-  margin-bottom: 0;
-
+  margin: 0;
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
@@ -221,18 +232,23 @@ img {
   color: #757575;
 }
 
-/* style activity*/
+/* -------style activity*--------*/
+
+.section-activ {
+  padding-top:  0;
+}
 
 .activity {
   display: flex;
   padding: 0;
+
   justify-content: space-between;
   padding-bottom: 94px;
   margin: 0;
 }
 .activity-title {
-  margin-top: 0;
-  margin-bottom: 50px;
+  margin: 0;
+  padding-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -242,20 +258,15 @@ img {
   color: #212121;
 }
 
-/* style наша команда*/
+/* ------style наша команда--------*/
 
 .team {
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
-.out {
-  margin-top: 0;
-  padding-top: 94px;
-}
 .card-title {
-  margin-bottom: 50px;
-  margin-top: 0;
+  padding-bottom: 50px;
+  margin: 0;
 
   font-weight: 700;
   font-size: 36px;
@@ -265,21 +276,21 @@ img {
   color: #212121;
 }
 
-.out-team {
+.team-list {
   display: flex;
-  padding: 0;
-  margin: 0;
-
   justify-content: space-between;
 }
+
 .card {
   width: 270px;
   background-color: #ffffff;
 }
 
 .name-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0;
+
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
@@ -287,8 +298,8 @@ img {
 }
 
 .card-text {
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0;
+  padding-bottom: 30px;
 
   color: #757575;
   font-family: "Roboto";
@@ -298,23 +309,25 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* style footer */
+/*---------- style footer---------- */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
+
   background-color: #2f303a;
 }
 
-.contact {
-  margin-top: 60px;
-}
 .footer .logo {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 .site-address {
   display: inline-block;
-  margin-bottom: 9px;
+  padding-bottom: 9px;
+  margin: 0;
 
   font-style: normal;
   font-size: 14px;
@@ -328,13 +341,13 @@ img {
   color: #2196f3;
 }
 .site-footer {
-  padding: 0;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  margin: 0;
+  padding-top: 20px;
+  
 }
 
 .footer-item:not(last-child) {
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 
  .info {
@@ -361,8 +374,8 @@ img {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin-top: 0;
-  margin-bottom: 50px;
+  margin: 0;
+  padding-bottom: 50px;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -392,9 +405,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 94px;
+  
+  margin: 0;
+  
 }
 .work-item {
   background-color: var(--white-color);
@@ -402,8 +415,9 @@ img {
   height: 405px;
 }
 .container-title {
-  margin-top: 20px;
-  margin-bottom: 4px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  margin: 0;
 
   font-weight: 700;
   font-size: 18px;
@@ -413,8 +427,8 @@ img {
   text-align: left;
 }
 .container-text {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
+  padding-bottom: 20px;
 
   font-weight: 400;
   font-size: 16px;

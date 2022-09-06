@@ -30,10 +30,10 @@
 
         <ul class="site-nav">
           <li class="list">
-            <a href="" class="link">Студія</a>
+            <a href="" class="link current">Студія</a>
           </li>
           <li class="list">
-            <a href="./portfolio.html" class="link current">Портфоліо</a>
+            <a href="./portfolio.html" class="link">Портфоліо</a>
           </li>
           <li class="list"><a href="" class="link">Контакти</a></li>
         </ul>
@@ -52,22 +52,24 @@
 
     <main>
       <section class="heroy">
+        
         <h1 class="slogan">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button">Замовити послугу</button>
+        <button type="button" class="heroy-button">Замовити послугу</button>
+      
       </section>
 
       <section class="section">
         <div class="container">
-          <h2 class="section-title">НАША ПЕРЕВАГА НАД ІНШИМИ</h2>
-          <ul class="skills">
-            <li class="list">
+          <h2 class="hidden-header">НАША ПЕРЕВАГА НАД ІНШИМИ</h2>
+          <ul class="skills-list list">
+            <li class="skills-link">
               <h3 class="skills-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="skills-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="list">
+            <li class="skills-link">
               <h3 class="skills-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="skills-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -75,14 +77,14 @@
               </p>
             </li>
 
-            <li class="list">
+            <li class="skills-link">
               <h3 class="skills-title">ПЛАНУВАННЯ</h3>
               <p class="skills-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
 
-            <li class="list">
+            <li class="skills-link">
               <h3 class="skills-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
 
               <p class="skills-text">
@@ -94,7 +96,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section-activ">
         <div class="container">
           <h2 class="activity-title">Чим ми займаємося</h2>
           <ul class="activity">
@@ -124,10 +126,10 @@
       </section>
 
       <section class="section team">
-        <div class="container out">
+        <div class="container">
           <h2 class="card-title">Наша команда</h2>
-          <ul class="out-team">
-            <li class="card list">
+          <ul class="team-list list">
+            <li class="card">
               <img
                 src="./images/team-1.jpg"
                 alt="Ігор Дем'яненко"
@@ -137,19 +139,19 @@
               <p class="card-text">Product Designer</p>
             </li>
 
-            <li class="card list">
+            <li class="card">
               <img src="./images/team-2.jpg" alt="Ольга Рєпіна" width="270" />
               <h3 class="name-title">Ольга Рєпіна</h3>
               <p class="card-text">Frontend Developer</p>
             </li>
 
-            <li class="card list">
+            <li class="card">
               <img src="./images/team-3.jpg" alt="Микола Тарасов" width="270" />
               <h3 class="name-title">Микола Тарасов</h3>
               <p class="card-text">Marketing</p>
             </li>
 
-            <li class="card list">
+            <li class="card">
               <img
                 src="./images/team-4.jpg"
                 alt="Михайло Єрмаков"
@@ -162,8 +164,9 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container contact">
+    <footer>
+      <section class="footer">
+      <div class="container">
         <a href="./index.htm" class="logo"
           >Web<span class="logo-end">Studio</span></a
         >
@@ -188,6 +191,7 @@
           </ul>
         </address>
       </div>
+      </section>
     </footer>
   </body>
 </html>
