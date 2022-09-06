@@ -350,13 +350,13 @@ img {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
   
 }
 
 .list button {
   margin-left: 8px;
-  margin-bottom: 50px;
   padding: 6px 22px;
 
   font-weight: 500;
@@ -368,7 +368,10 @@ img {
   background-color: #f5f4fa;
   border: hidden;
 }
- 
+
+/*.list button:first-child {
+  margin-left: 0;
+}*/
 
 
 .filter-list button:hover,
