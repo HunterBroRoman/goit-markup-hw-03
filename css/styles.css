@@ -333,10 +333,13 @@ img {
   margin-bottom: 60px;
 }
 
-.site-footer .info {
-  display: inline-block;
+.footer-item:not(last-child) {
   margin-bottom: 9px;
+}
 
+ .info {
+  display: inline-block;
+  margin: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -385,8 +388,6 @@ img {
   cursor: pointer;
 }
 
-/* -------------style work------------*/
-
 .work-link {
   display: flex;
   flex-wrap: wrap;
@@ -395,7 +396,7 @@ img {
   margin-top: 0;
   margin-bottom: 94px;
 }
-.work-list {
+.work-item {
   background-color: var(--white-color);
   width: 370px;
   height: 405px;
