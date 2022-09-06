@@ -54,9 +54,7 @@ img {
 
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
-  
 }
-
 
 .main-nav {
   display: flex;
@@ -91,7 +89,6 @@ img {
 
 .site-nav .list {
   margin-right: 50px;
-  
 }
 .site-nav .list:last-child {
   margin-right: 0;
@@ -121,7 +118,7 @@ img {
 
 .site-contact {
   display: flex;
-  margin-left:auto;
+  margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -129,14 +126,14 @@ img {
 
 .site-contact .list {
   margin-right: 50px;
- }
+}
 
- .site-contact .list:last-child {
+.site-contact .list:last-child {
   margin-right: 0;
- }
+}
 
 .site-contact .info {
-  display:inline-block;
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -245,24 +242,21 @@ img {
   color: #212121;
 }
 
-
 /* style наша команда*/
 
- .team {
+.team {
   padding-bottom: 94px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
+}
 
- }
-
- .out {
+.out {
   margin-top: 0;
   padding-top: 94px;
- }
- .card-title {
-  margin-bottom:50px;
-  margin-top:  0;
-  
-  
+}
+.card-title {
+  margin-bottom: 50px;
+  margin-top: 0;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.6;
@@ -272,20 +266,17 @@ img {
 }
 
 .out-team {
-  
   display: flex;
   padding: 0;
   margin: 0;
- 
-     
+
   justify-content: space-between;
-  
 }
 .card {
   width: 270px;
-  background-color: #FFFFFF;;
+  background-color: #ffffff;
 }
- 
+
 .name-title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -310,7 +301,6 @@ img {
 /* style footer */
 
 .footer {
-  
   display: flex;
   background-color: #2f303a;
 }
@@ -323,7 +313,6 @@ img {
 }
 
 .site-address {
-
   display: inline-block;
   margin-bottom: 9px;
 
@@ -342,11 +331,9 @@ img {
   padding: 0;
   margin-top: 20px;
   margin-bottom: 60px;
-  
 }
 
 .site-footer .info {
-
   display: inline-block;
   margin-bottom: 9px;
 
@@ -359,13 +346,13 @@ img {
   text-decoration: none;
 }
 
- .info:hover,
+.info:hover,
 .info:focus {
   color: #2196f3;
 }
 
-/* style portfolio */
-/* style filter */
+/* -------------style portfolio-------------------- */
+/* style work filter */
 
 .filter-list {
   display: flex;
@@ -373,13 +360,14 @@ img {
   padding: 0;
   margin-top: 0;
   margin-bottom: 50px;
-  
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 
-.list button {
-  margin-left: 8px;
+.filter-btn {
   padding: 6px 22px;
-
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -390,11 +378,6 @@ img {
   border: hidden;
 }
 
-/*.list button:first-child {
-  margin-left: 0;
-}*/
-
-
 .filter-list button:hover,
 .filter-list button:focus {
   color: var(--white-color);
@@ -402,7 +385,7 @@ img {
   cursor: pointer;
 }
 
-/* style work */
+/* -------------style work------------*/
 
 .work-link {
   display: flex;
@@ -411,9 +394,8 @@ img {
   padding: 0;
   margin-top: 0;
   margin-bottom: 94px;
-  
 }
-.work {
+.work-list {
   background-color: var(--white-color);
   width: 370px;
   height: 405px;
