@@ -293,9 +293,9 @@ img {
   }
 
 .name-title {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
 
   font-size: 16px;
   line-height: 1.87;
@@ -426,10 +426,9 @@ img {
   height: 405px;
 }
 .container-title {
-  padding-top: 20px;
-  padding-bottom: 4px;
-  margin: 0;
-
+  margin-top: 20px;
+  margin-bottom: 4px;
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
