@@ -336,9 +336,7 @@ img {
 
 .site-address {
   display: inline-block;
-  padding-bottom: 9px;
-  margin: 0;
-
+  
   font-style: normal;
   font-size: 14px;
   line-height: 1.5;
@@ -351,7 +349,7 @@ img {
   color: #2196f3;
 }
 
-.footer-item:not(last-child) {
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
