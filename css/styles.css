@@ -163,8 +163,8 @@ img {
 }
 
 .slogan {
-  margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-top: 0;
 
   color: var(--white-color);
   font-weight: 900;
